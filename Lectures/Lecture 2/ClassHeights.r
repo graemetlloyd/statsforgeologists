@@ -5,7 +5,7 @@ ClassHeights <- matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))
 
 ClassHeights <- (ClassHeights[, 1] * 12) + ClassHeights[, 2]
 
-pdf("/Users/eargtl/Documents/Teaching/University of Leeds/SOEE1475/2019-2020/Class Heights.pdf", width = 10, height = 7)
+pdf("Class Heights.pdf", width = 10, height = 7)
 
 
 hist(ClassHeights, breaks = min(ClassHeights):max(ClassHeights), border = 0, col = "Grey")
@@ -68,7 +68,7 @@ dev.off()
 
 
 
-pdf("/Users/eargtl/Documents/Teaching/University of Leeds/SOEE1475/2019-2020/VarianceExample.pdf", width = 10, height = 7)
+pdf("VarianceExample.pdf", width = 10, height = 7)
 
 plot(x = ClassHeights, y = c(1:length(ClassHeights)), pch = 20, col = "Red", cex = 2, xlab = "Height (Inches)", axes = FALSE, ylab = "")
 axis(side = 1)

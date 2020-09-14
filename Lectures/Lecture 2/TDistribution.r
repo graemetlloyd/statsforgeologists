@@ -36,7 +36,7 @@ polygon(x = c(XValues[which(XValues > TwoTail[2])], XValues[which(XValues > TwoT
 
 Alpha <- 0.1
 
-pdf("/Users/eargtl/Documents/Teaching/University of Leeds/SOEE1475/2019-2020/T-distributions.pdf", width = 10, height = 7)
+pdf("T-distributions.pdf", width = 10, height = 7)
 
 par(mfrow = c(3, 3), mar = c(0.1, 0.1, 0.1, 0.1))
 
