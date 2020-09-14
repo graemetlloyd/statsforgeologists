@@ -477,6 +477,5 @@ text(x = CriticalValue, y = max(dchisq(x = ChiSqRange, df = DF)),
 #                                                                              #
 # You are now ready to attempt this week's MCQ which is a series of ten        #
 # multiple choice questions (MCQs) on last week's lecture and this practical.  #
-# This is on Minerva: SOEE1475 > Statistics Resources > MCQ.                   #
 #                                                                              #
 ################################################################################

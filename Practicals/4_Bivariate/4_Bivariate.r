@@ -684,6 +684,5 @@ cor.test(x = AmmoniteChambers, y = AmmoniteDiameters)$estimate ^ 2
 #                                                                              #
 # You are now ready to attempt this week's MCQ which is a series of ten        #
 # multiple choice questions (MCQs) on last week's lecture and this practical.  #
-# This is on Minerva: SOEE1475 > Statistics resources > MCQ.                   #
 #                                                                              #
 ################################################################################

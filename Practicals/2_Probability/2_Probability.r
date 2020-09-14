@@ -435,8 +435,6 @@ dpois(x = 1, lambda = 1.9)
 #                                                                              #
 # You are now ready to attempt this week's MCQ which is a series of ten        #
 # multiple choice questions (MCQs) on last week's lecture and this practical.  #
-# As last time you will find it on Minerva: SOEE1475 > Statistics resources >  #
-# MCQs.                                                                        #
 #                                                                              #
 ################################################################################
 

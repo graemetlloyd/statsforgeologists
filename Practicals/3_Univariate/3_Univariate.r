@@ -49,15 +49,15 @@ hist(AmmoniteDiameters, breaks = c(50, 75, 100, 125, 150, 175, 200, 225, 250,
 # numbers!
 #
 # How does this compare with the larger sample we generated in lecture? I.e.,
-# compare the data from just your quadrat with the plot from the Lecture
-# Capture (available on Minerva). You might see that your own data looks less
-# like the "ideal" normal distribution, i.e., a clear central peak with symmetric
-# tapering to less common values at the extremes. This is due to the nature of
-# small sample sizes, but hopefully you should be convinced that the data do
-# approximate a normal distribution based on the larger sample we were able to
-# use in lecture by combining data from multiple quadrats together. We should
-# thus probably not be too worried about using summary values for location and
-# dispersion that assume data are normally distributed. For example, the mean:
+# compare the data from just your quadrat with the plot from lecture. You might
+# see that your own data looks less like the "ideal" normal distribution, i.e.,
+# a clear central peak with symmetric tapering to less common values at the
+# extremes. This is due to the nature of small sample sizes, but hopefully you
+# should be convinced that the data do approximate a normal distribution based
+# on the larger sample we were able to use in lecture by combining data from#
+# multiple quadrats together. We should thus probably not be too worried about
+# using summary values for location and dispersion that assume data are normally
+# distributed. For example, the mean:
 AmmoniteMean <- mean(AmmoniteDiameters)
 AmmoniteMean
 
@@ -180,7 +180,7 @@ mean(AmmoniteDiameters2)
 # This is a bit more complex to calculate so we wil go through it step-by-step
 # below. Here we will apply it in the simplest case (only three samples) by
 # reusing our heights for professions example from lecture. Specifically, we
-# will import the heights of the students in SOEE1475 as our geologists sample:
+# will import the heights of the students in this class as our geologists sample:
 ClassHeights <- c(71, 69, 73, 67, 61, 77, 74, 68.5, 68, 71, 64, 70, 62, 64, 67,
   69, 63, 63, 66, 69, 68, 72)
 
@@ -276,8 +276,8 @@ mean(unlist(ANOVAData))
 # With ANOVA we are in effect asking whether our samples might actually be
 # drawn from a single population with a mean close to our global mean, and
 # thus differences between treatment means are just the outcome of random
-# samples. I.e., in the same way the average height of a member of SOEE1475
-# is likely to be slightly lower or higher than the mean for all Leeds
+# samples. I.e., in the same way the average height of a member of this class
+# is likely to be slightly lower or higher than the mean for all
 # undergraduates. Of course here we suspect that this difference is not slight
 # and due to a real difference in mean heights amongst professions. The next
 # step in ANOVA is to calculate the sum of the squared distance for each
@@ -391,6 +391,5 @@ t.test(x = ANOVAData$Basketball_players, y = ANOVAData$Jockeys)$p.value
 #                                                                              #
 # You are now ready to attempt this week's MCQ which is a series of ten        #
 # multiple choice questions (MCQs) on last week's lecture and this practical.  #
-# This is on Minerva: SOEE1475 > Statistics resources > MCQ.                   #
 #                                                                              #
 ################################################################################

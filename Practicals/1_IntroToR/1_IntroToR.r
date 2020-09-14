@@ -476,18 +476,13 @@ browseURL("Practical_1_plots.pdf")
 #                                                                              #
 # You are now ready to attempt this week's MCQ which is a series of ten        #
 # multiple choice questions (MCQs) on this practical. There will be a new set  #
-# of MCQs each week drawn from the previous lecture and practical and you will #
-# find them on Minerva: SOEE1475 > Statistics resources > MCQs. These are      #
-# formative assessments designed to continously assess your comprehension of   #
-# the preceding lecture and practical (although there is no lecture for this   #
-# first one). As such they can be taken as many times as you like, but it is   #
-# generally recommended that you take them as soon as possible after each      #
-# practical and ensure you understand why you got any questions wrong before   #
-# proceeding in the course as concepts are built upon successively in          #
-# subsequent lectures and practicals. Additionally many of the insights        #
-# garnered from MCQs will help develop the skills you require to complete the  #
-# summative assessment. Finally, I will also provied model answers for each    #
-# MCQ on Minerva, but note that these just reapeat the information present in  #
-# the MCQs themselves.                                                         #
+# of MCQs each week drawn from the previous lecture and practical. These are   #
+# designed to continously assess your comprehension of the preceding lecture   #
+# and practical (although there is no lecture for this first one). As such     #
+# they can be taken as many times as you like, but it is generally recommended #
+# that you take them as soon as possible after each practical and ensure you   #
+# understand why you got any questions wrong before proceeding in the course   #
+# as concepts are built upon successively in subsequent lectures and           #
+# practicals. Model answers for each MCQ are also available.                   #
 #                                                                              #
 ################################################################################
