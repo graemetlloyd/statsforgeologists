@@ -181,7 +181,7 @@ TyrannosaurBodyMasses["Tyrannosaurus_rex"]
 # worried you would have to type it in manually, fear not! We can import data
 # from MS Excel. First of all, let's look at just such a data set: the NOAA
 # database of volcanoes:
-browseURL("http://www.graemetlloyd.com/teaching/SOEE1475/20/NOAAVolcanoDatabase.xlsx")
+browseURL("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Practicals/1_IntroToR/NOAAVolcanoDatabase.xlsx")
 
 # The above line should load the Excel file in your default browser (manually
 # copy and paste the URL if it fails for some reason). Note that the browser
@@ -251,7 +251,7 @@ VolcanoData <- read.xls(file.choose())
 VolcanoData <- read.csv(file.choose())
 
 # We can also read in data directly from a web link:
-VolcanoData <- read.csv("http://www.graemetlloyd.com/teaching/SOEE1475/20/NOAAVolcanoDatabase.csv")
+VolcanoData <- read.csv("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Practicals/1_IntroToR/NOAAVolcanoDatabase.csv")
 
 # This has imported the data as a TABLE (i.e., with rows and columns). You
 # should find it has automatically recognised the headers:
