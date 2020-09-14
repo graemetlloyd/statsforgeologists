@@ -36,7 +36,7 @@ AmmoniteBearings <- c(, , , , , , , , , , , , , , , , , , , )
 # As we are working remotely you can instead get these measurements by
 # modifying the line below by replacing 'X4' with your own quadrat's
 # code then running the line:
-AmmoniteBearings <- read.csv("http://www.graemetlloyd.com/teaching/SOEE1475/20/Lower_Bed/Quadrat_X4.csv")[, "Aperture_bearing_degrees"]
+AmmoniteBearings <- read.csv("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Ammonite_quadrats/Lower_Bed/Quadrat_X4.csv")[, "Aperture_bearing_degrees"]
 
 # Before we learn how to treat this data correctly (i.e., as circular) lets
 # convince ourselves that treating it as regular univariate data is problematic.

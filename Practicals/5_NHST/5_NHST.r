@@ -276,7 +276,7 @@ t.test(x = AmmoniteDiameters, conf.level = 0.95)$conf.int[1:2]
 # feature we can still use the t-test when our data are not normally
 # distributed.) We can visualise this too, but first we must import a custom
 # function:
-source("http://www.graemetlloyd.com/teaching/SOEE1475/20/StatsFunctions.r")
+source("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Functions/StatsFunctions.r")
 
 # Now we can plot the data:
 TTestVisualisation(x = AmmoniteDiameters, Alpha = 0.05, Type = "TwoTail",

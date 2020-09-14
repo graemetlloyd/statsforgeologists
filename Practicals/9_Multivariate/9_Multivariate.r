@@ -38,7 +38,7 @@ QuadratNumber <- "X12"
 
 # From this the following will build a web address (URL) that will point to
 # the correct measurements for your quadrat:
-CSVPath <- paste("http://www.graemetlloyd.com/teaching/SOEE1475/20/Lower_Bed/Quadrat_", QuadratNumber, ".csv", sep = "")
+CSVPath <- paste("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Ammonite_quadrats/Lower_Bed/Quadrat_", QuadratNumber, ".csv", sep = "")
 CSVPath
 
 # You can read this data into R with:
@@ -262,10 +262,10 @@ text(x = FlagPrincipalCoordinates[, 1], y = FlagPrincipalCoordinates[, 2],
 # names of the countries. Instead it would help to visually see each flag in
 # the space. This requires writing a new (and long) function. This is in the
 # StatsFunctions.r file for this course and can be viewed here:
-browseURL("http://www.graemetlloyd.com/teaching/SOEE1475/20/StatsFunctions.r")
+browseURL("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Functions/StatsFunctions.r")
 
-# However, all yyou need to do is get it into memory with:
-source("http://www.graemetlloyd.com/teaching/SOEE1475/20/StatsFunctions.r")
+# However, all you need to do is get it into memory with:
+source("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Functions/StatsFunctions.r")
 
 # Next we will need to set the plotting size (height and width) for each flag:
 FlagWidth <- diff(range(FlagPrincipalCoordinates[, 1])) * (1 / 15)

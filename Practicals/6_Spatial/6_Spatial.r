@@ -54,8 +54,8 @@ text(x = XValues, y = YValues, labels = 1:20)
 # go check your coordinates and fix any problems you find. Alternatively, you
 # can cheat and import this data by swapping out "X4" with your own quadrat
 # number on the following lines:
-XValues <- read.csv("http://www.graemetlloyd.com/teaching/SOEE1475/20/Lower_Bed/Quadrat_X4.csv")[, "X_coordinate"]
-YValues <- read.csv("http://www.graemetlloyd.com/teaching/SOEE1475/20/Lower_Bed/Quadrat_X4.csv")[, "Y_coordinate"]
+XValues <- read.csv("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Ammonite_quadrats/Lower_Bed/Quadrat_X4.csv")[, "X_coordinate"]
+YValues <- read.csv("https://raw.githubusercontent.com/graemetlloyd/statsforgeologists/master/Ammonite_quadrats/Lower_Bed/Quadrat_X4.csv")[, "Y_coordinate"]
 
 # Repeat the plot from above as a final check the coordinates work:
 plot(x = XValues, y = YValues, xlim = c(0, 1000), ylim = c(0, 1000),
@@ -449,7 +449,7 @@ s3d$plane3d(Plane)
 
 # NB: If this doesn't work because you are unable to install the package the
 # graph can also be accessed with:
-browseURL("http://www.graemetlloyd.com/teaching/SOEE1475/20/3DRegression.pdf")
+browseURL("https://github.com/graemetlloyd/statsforgeologists/raw/master/ExamplePlots/3DRegression.pdf")
 
 # You should see the data represent a 3D scatter plot with axes corresponding
 # to our three-dimensions: Eastings, Northings, and Altitude. To aid the

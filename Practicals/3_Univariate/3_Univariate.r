@@ -23,7 +23,7 @@
 # did in lecture. Before we begin you can get a digital copy of your quadrat as
 # a PDF by modifying the following line. I.e., replace "X4" with whatever your
 # quadrat's code is (it will not work otherwise!):
-browseURL("http://www.graemetlloyd.com/teaching/SOEE1475/20/Lower_Bed/X4.pdf")
+browseURL("https://github.com/graemetlloyd/statsforgeologists/raw/master/Ammonite_quadrats/Lower_Bed/X4.pdf")
 
 # You can save this to your working directory ready to refer to in later
 # practicals (i.e., use Save/Download rather than Open).

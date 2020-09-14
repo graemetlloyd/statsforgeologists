@@ -372,7 +372,7 @@ AmmoniteDiameters <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
 # count the central chambers so it is advised you start by downloading the PDF
 # version of your quadrat (i.e., modify the last part of this line to point to
 # your unique quadrat as you did in the previous practical):
-browseURL("http://www.graemetlloyd.com/teaching/SOEE1475/20/Lower_Bed/X4.pdf")
+browseURL("https://github.com/graemetlloyd/statsforgeologists/raw/master/Ammonite_quadrats/Lower_Bed/X4.pdf")
 
 # As with the diameters you should fill this data out on your sheet before
 # entering it here (it is always good to have redundancy in this way). You
