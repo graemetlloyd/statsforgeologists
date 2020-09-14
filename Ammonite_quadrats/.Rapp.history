@@ -1,0 +1,969 @@
+hist(FourFlipsTenTimes, breaks = 0:4, names.arg = c("0", "1", "2", "3", "4"))
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0, xlim = c(-0.5, 4.5))
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0, xlim = c(-10, 4.5))
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0, xlim = c(-10, 4.5), xpd = FALSE)
+hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+# We can plot this as an overlay on our data to directly compare the two:#
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 4))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 4))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 4))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+FourFlipsTenTimes <- apply(matrix(CoinFlipper(NFlips = 4 * 10, pHeads = 0.5),#
+  nrow = 10) == "Heads", 1, sum)#
+FourFlipsTenTimes
+hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 4))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0.5, 4.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes, breaks = 0:4,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(-0.5, 4.5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 4))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 4))
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 5))#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 5), axes = "n")#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)
+?axis
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 5), axes = "n")#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1)
+?axes
+?axis
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 5), axes = "n")#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5)
+?axis
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 5), axes = "n")#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4)))
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+xlim = c(0, 5), axes = "n")#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = "n")#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = "n")
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = "n", plot = TRUE)
+?hist
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 100#
+FourFlipsTenTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+#
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 10000#
+FourFlipsTenTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+#
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 100#
+FourFlipsTenTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 100#
+FourFlipsNTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+hist(FourFlipsNTimes + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""),#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 10000#
+FourFlipsNTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+hist(FourFlipsNTimes + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""),#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 10000#
+FourFlipsNTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+hist(FourFlipsNTimes + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+rep(0, ZeroHeads)
+ZeroHeads <- 10#
+OneHeads <- 10#
+TwoHeads <- 10#
+ThreeHeads <- 10#
+FourHeads <- 10#
+#
+rep(0, ZeroHeads)
+ZeroHeads <- 10#
+OneHeads <- 10#
+TwoHeads <- 10#
+ThreeHeads <- 10#
+FourHeads <- 10#
+#
+ClassFlips <- c(#
+rep(0, ZeroHeads)#
+rep(1, ZeroHeads)#
+rep(2, ZeroHeads)#
+rep(3, ZeroHeads)#
+rep(4, ZeroHeads)#
+)#
+#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * length(ClassFlips),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+ZeroHeads <- 3#
+OneHeads <- 5#
+TwoHeads <- 10#
+ThreeHeads <- 6#
+FourHeads <- 2#
+#
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * length(ClassFlips),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * length(ClassFlips),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+ZeroHeads <- 3#
+OneHeads <- 5#
+TwoHeads <- 10#
+ThreeHeads <- 6#
+FourHeads <- 2#
+#
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)
+ZeroHeads <- 3#
+OneHeads <- 5#
+TwoHeads <- 10#
+ThreeHeads <- 6#
+FourHeads <- 2#
+#
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+axis(side = 2)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+ZeroHeads <- 3#
+OneHeads <- 5#
+TwoHeads <- 10#
+ThreeHeads <- 6#
+FourHeads <- 2#
+#
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+axis(side = 2)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+ZeroHeads <- 0#
+OneHeads <- 5#
+TwoHeads <- 10#
+ThreeHeads <- 6#
+FourHeads <- 2#
+#
+# Combine into vector:#
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+# Plot raw data:#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+axis(side = 2)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)
+ClassFlips
+dnorm(seq(from -5, to = 5, lenght.out = 1000))
+dnorm(seq(from = 5, to = 5, lenght.out = 1000))
+dnorm(x = seq(from = 5, to = 5, lenght.out = 1000))
+dnorm(x = seq(from = 5, to = 5, length.out = 1000))
+plot(dnorm(x = seq(from = 5, to = 5, length.out = 1000)))
+?dnorm
+dnorm(10)
+dnorm(12)
+dnorm(x = seq(from = 5, to = 5, length.out = 10))
+dnorm(x = seq(from = -5, to = 5, length.out = 10))
+dnorm(x = seq(from = -5, to = 5, length.out = 1000))
+plot(dnorm(x = seq(from = -5, to = 5, length.out = 1000)))
+plot(dnorm(x = seq(from = -5, to = 5, length.out = 1000)), type = "l")
+polygon(x = c(1:1000), y = dnorm(x = seq(from = -5, to = 5, length.out = 1000)))
+polygon(x = c(1:1000), y = dnorm(x = seq(from = -5, to = 5, length.out = 1000)), col = "red")
+plot(dnorm(x = seq(from = -5, to = 5, length.out = 1000)), type = "n")
+polygon(x = c(1:1000), y = dnorm(x = seq(from = -5, to = 5, length.out = 1000)), col = "red")
+# Enter class data into R:#
+ZeroHeads <- 3#
+OneHeads <- 7#
+TwoHeads <- 15#
+ThreeHeads <- 6#
+FourHeads <- 1#
+#
+# Combine into vector:#
+ClassFlips <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+# Plot raw data:#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+axis(side = 2)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+# Plot with expected:#
+hist(ClassFlips + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ",#
+  length(ClassFlips), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * length(ClassFlips),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+dbinom(x = c(0:26), size = 26, prob = 0.5)
+cumsum(dbinom(x = c(0:26), size = 26, prob = 0.5))
+barplot(cumsum(dbinom(x = c(0:26), size = 26, prob = 0.5)), space = 0)
+x <- dbinom(x = c(0:26), size = 26, prob = 0.5)
+barplot(x, space = 0, border = 0, xlim = c(0, 26), col = c(rep("Grey", 11), rep("Grey", 5), rep("Grey", 11)), names.arg = c(0:26), xlab = "N increases", ylab = "P(X = k)")
+barplot(cumsum(x), space = 0, border = 0, xlim = c(0, 26), col = c(rep("Grey", 11), rep("Grey", 5), rep("Grey", 11)), names.arg = c(0:26), xlab = "N increases", ylab = "P(X = k)")
+# Remembering Lesson #1 from lecture it is more helpful to visualise the data#
+# to help us understand what is going on. A histogram is what we want here:#
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads")
+#################################################################################
+#                                                                              ##
+#                          PRACTICAL II - PROBABILITY                          ##
+#                                                                              ##
+#################################################################################
+#
+#################################################################################
+#                                                                              ##
+#                               TODAY's AIMS                                   ##
+#                                                                              ##
+# - Learn how to use R to calculate probability expectations and inferences    ##
+# - Learn how to generate common probability distributions in R                ##
+# - Learn how to interpret probability distributions                           ##
+#                                                                              ##
+#################################################################################
+#
+# In lecture we used real coins to generate a probability inference, but like#
+# most repetitive tasks the same thing can be done much faster with a computer.#
+# We can simulate coin flipping by writing our own R function like this:#
+CoinFlipper <- function(NFlips = 1, pHeads = 0.5) {#
+  return(c("Tails", "Heads")[rbinom(n = NFlips, 1, prob = pHeads) + 1])#
+}#
+#
+# Lets test it using the values from class (4 flips, assuming a fair coin,#
+# i.e., where the probability of heads is 0.5):#
+CoinFlipper(NFlips = 4, pHeads = 0.5)#
+#
+# You should get a sequence of four values each of either "Heads" or "Tails".#
+# Note that this is randomly generated. So if we run it multiple times we#
+# should get different answers:#
+CoinFlipper(NFlips = 4, pHeads = 0.5)#
+CoinFlipper(NFlips = 4, pHeads = 0.5)#
+CoinFlipper(NFlips = 4, pHeads = 0.5)#
+CoinFlipper(NFlips = 4, pHeads = 0.5)#
+CoinFlipper(NFlips = 4, pHeads = 0.5)#
+#
+# The power of computers is that we can do this a very large number of times.#
+# Let's start with just ten REPLICATES (you can think of these as individual#
+# trials, i.e., ten students flipping a coin four times). This time though#
+# we will just count the numbere of Heads:#
+apply(matrix(CoinFlipper(NFlips = 4 * 10, pHeads = 0.5),#
+  nrow = 10) == "Heads", 1, sum)#
+#
+# You should get a series of numbers of any value between 0 and 4. Again, this#
+# is randomly generated so if we repeat the process the answer should change.#
+# Let's do that, but this time store the data in a variable as well:#
+FourFlipsTenTimes <- apply(matrix(CoinFlipper(NFlips = 4 * 10, pHeads = 0.5),#
+  nrow = 10) == "Heads", 1, sum)#
+FourFlipsTenTimes#
+#
+# Remembering Lesson #1 from lecture it is more helpful to visualise the data#
+# to help us understand what is going on. A histogram is what we want here:#
+hist(FourFlipsTenTimes, breaks = seq(from = -0.5, to = 4.5, length.out = 6),#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads")#
+#
+# Note we are using an extra option here ("breaks") to make sure our data are#
+# plotted in bins that correspond to our full range of possible values (0 to#
+# 4). We can compare this with an expectation using the PROBABILITY DENSITY#
+# FUNCTION for the BINOMIAL:#
+dbinom(x = 0:4, size = 4, prob = 0.5)#
+#
+# This gives us the probability of each outcome (from 0 heads to 4 heads, the#
+# full *possible* range), but to turn it into an expectation we need to#
+# multiply it by the sample size (10), i.e., the number of replicates:#
+dbinom(x = 0:4, size = 4, prob = 0.5) * 10#
+#
+# We can plot this as an overlay on our data to directly compare the two:#
+hist(FourFlipsTenTimes + 0.5, breaks = 0:5,#
+  main = "Histogram of N heads from four coin flips\n(for ten replicates)",#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * 10, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+N_reps <- 100#
+FourFlipsNTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+hist(FourFlipsNTimes + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""),#
+  xlab = "N heads", border = 0, col = rgb(0.5, 0.5, 0.5, 0.5),#
+  xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+# What happened? Do they match better? What if we go bigger and do 10000?:#
+N_reps <- 10000#
+FourFlipsNTimes <- apply(matrix(CoinFlipper(NFlips = 4 * N_reps, pHeads = 0.5),#
+  nrow = N_reps) == "Heads", 1, sum)#
+hist(FourFlipsNTimes + 0.5, breaks = 0:5,#
+  main = paste("Histogram of N heads from four coin flips\n(for ", N_reps,#
+  " replicates)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(0, 5), axes = FALSE, plot = TRUE)#
+barplot(dbinom(x = 0:4, size = 4, prob = 0.5) * N_reps, add = TRUE, space = 0,#
+  col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 1, at = c(0:4) + 0.5, labels = as.character(0:4))
+# Enter class data into R:#
+Ones <- 4#
+Twos <- 5#
+Threes <- 6#
+Fours <- 4#
+Fives <- 6#
+Sixes <- 5#
+#
+# Combine into vector:#
+ClassRolls <- c(#
+rep(0, ZeroHeads),#
+rep(1, OneHeads),#
+rep(2, TwoHeads),#
+rep(3, ThreeHeads),#
+rep(4, FourHeads)#
+)#
+#
+# Plot raw data:#
+hist(ClassRolls + 0.5, breaks = 1:7,#
+  main = paste("Histogram of one dice roll\n(for ",#
+  length(ClassRolls), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(1, 7), axes = FALSE, plot = TRUE)#
+axis(side = 2)#
+axis(side = 1, at = c(1:6) + 0.5, labels = as.character(1:6))
+hist(ClassRolls)
+hist(ClassRolls + 0.5, breaks = 1:7)
+ClassRolls
+# Enter class data into R:#
+Ones <- 4#
+Twos <- 5#
+Threes <- 6#
+Fours <- 4#
+Fives <- 6#
+Sixes <- 5#
+#
+# Combine into vector:#
+ClassRolls <- c(#
+rep(1, Ones),#
+rep(2, Twos),#
+rep(3, Threes),#
+rep(4, Fours),#
+rep(5, Fives),#
+rep(6, Sixes)#
+)#
+#
+# Plot raw data:#
+hist(ClassRolls + 0.5, breaks = 1:7,#
+  main = paste("Histogram of one dice roll\n(for ",#
+  length(ClassRolls), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(1, 7), axes = FALSE, plot = TRUE)#
+axis(side = 2)#
+axis(side = 1, at = c(1:6) + 0.5, labels = as.character(1:6))
+hist(ClassRolls + 0.5, breaks = 1:7,#
+  main = paste("Histogram of one dice roll\n(for ",#
+  length(ClassRolls), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(1, 7), axes = FALSE, plot = TRUE)#
+barplot((1 / 6) * length(ClassRolls),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 2)#
+axis(side = 1, at = c(1:6) + 0.5, labels = as.character(1:6))
+(1 / 6) * length(ClassRolls)
+hist(ClassRolls + 0.5, breaks = 1:7,#
+  main = paste("Histogram of one dice roll\n(for ",#
+  length(ClassRolls), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(1, 7), axes = FALSE, plot = TRUE)#
+barplot(rep(1 / 6, 6) * length(ClassRolls),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 2)#
+axis(side = 1, at = c(1:6) + 0.5, labels = as.character(1:6))
+hist(ClassRolls + 0.5, breaks = 1:7,#
+  main = paste("Histogram of one dice roll\n(for ",#
+  length(ClassRolls), " students)", sep = ""), xlab = "N heads", border = 0,#
+  col = rgb(0.5, 0.5, 0.5, 0.5), xlim = c(1, 7), axes = FALSE, plot = TRUE)#
+barplot(c(0, rep(1 / 6, 6) * length(ClassRolls)),#
+  add = TRUE, space = 0, col = rgb(1, 0, 0, 0.5), border = 0)#
+axis(side = 2)#
+axis(side = 1, at = c(1:6) + 0.5, labels = as.character(1:6))
+dnorm(x = -5:5, mean = 0, sd = 1)
+plot(dnorm(x = -5:5, mean = 0, sd = 1))
+dnorm(x = seq(from = -5, to = 5, length.out = 100), mean = 0, sd = 1)
+plot(dnorm(x = seq(from = -5, to = 5, length.out = 100), mean = 0, sd = 1))
+dnorm(x = seq(from = -5, to = 5, length.out = 100), mean = 0, sd = 1)
+plot(dnorm(x = seq(from = -5, to = 5, length.out = 100), mean = 0, sd = 1))
+c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")
+ClassHeights <- c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")
+Classheights
+ClassHeights
+strsplit(ClassHeights, "\"|'")
+strsplit(ClassHeights, split = "\"|'")
+unlist(strsplit(ClassHeights, split = "\"|'"))
+matrix(unlist(strsplit(ClassHeights, split = "\"|'")))
+matrix(unlist(strsplit(ClassHeights, split = "\"|'")), ncol = 2)
+matrix(unlist(strsplit(ClassHeights, split = "\"|'")), ncol = 2, byrow = TRUE)
+matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))), ncol = 2, byrow = TRUE)
+ClassHeights <- c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")#
+#
+ClassHeights <- matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))), ncol = 2, byrow = TRUE)
+ClassHeights
+ClassHeights[, 1]
+ClassHeights[, 1] * 12
+(ClassHeights[, 1] * 12) + ClassHeights[, 2]
+hist((ClassHeights[, 1] * 12) + ClassHeights[, 2])
+hist((ClassHeights[, 1] * 12) + ClassHeights[, 2], braks = 10)
+hist((ClassHeights[, 1] * 12) + ClassHeights[, 2], breaks = 10)
+ClassHeights <- c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")#
+#
+ClassHeights <- matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))), ncol = 2, byrow = TRUE)#
+#
+ClassHeights <- (ClassHeights[, 1] * 12) + ClassHeights[, 2]
+ClassHeights
+hist(ClassHeights)
+mean(ClassHeights)
+sd(ClassHeights)
+hist(ClassHeights)#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))
+hist(ClassHeights)#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal, type = "l", col = "Red")
+hist(ClassHeights)#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(Classheights), type = "l", col = "Red")
+hist(ClassHeights)#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")
+hist(ClassHeights, breaks = min(ClassHeights):max(ClassHeights))#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")
+hist(ClassHeights, breaks = min(ClassHeights):max(ClassHeights))#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+#
+rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))
+hist(rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights)), breaks = min(ClassHeights):max(ClassHeights))
+rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))
+hist(rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights)), breaks = min(ClassHeights):max(ClassHeights))
+?hist
+hist(rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights)), breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights), include.lowest = FALSE)#
+hist(x = ClassHeights, col = rgb(1, 0, 0, 0.5), add = TRUE)
+RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+hist(RandHeights, breaks = min(ClassHeights):max(ClassHeights))#
+hist(x = ClassHeights, col = rgb(1, 0, 0, 0.5), add = TRUE, breaks = min(ClassHeights):max(ClassHeights))
+for(i in 1:24) {#
+  RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+  RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+}
+RandomlyGeneratedHeights <- list()#
+#
+for(i in 1:24) {#
+  RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+  RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+  RandomlyGeneratedHeights[[i]] <- RandHeights#
+}#
+#
+RandomlyGeneratedHeights
+RandomlyGeneratedHeights
+RandomlyGeneratedHeights[1:12]
+list(RandomlyGeneratedHeights[1:12], Classheights, RandomlyGeneratedHeights[13:24])
+list(RandomlyGeneratedHeights[1:12], ClassHeights, RandomlyGeneratedHeights[13:24])
+lapply(list(RandomlyGeneratedHeights[1:12], ClassHeights, RandomlyGeneratedHeights[13:24]), unlist)
+list(RandomlyGeneratedHeights[1:12], ClassHeights, RandomlyGeneratedHeights[13:24])
+list(RandomlyGeneratedHeights[1:12], list(ClassHeights), RandomlyGeneratedHeights[13:24])
+lapply(list(RandomlyGeneratedHeights[1:12], list(ClassHeights), RandomlyGeneratedHeights[13:24]), lapply, unlist)
+lapply(list(RandomlyGeneratedHeights[1:12], list(ClassHeights), RandomlyGeneratedHeights[13:24]), unlist)
+ClassHeights <- c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")#
+#
+ClassHeights <- matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))), ncol = 2, byrow = TRUE)#
+#
+ClassHeights <- (ClassHeights[, 1] * 12) + ClassHeights[, 2]#
+hist(ClassHeights, breaks = min(ClassHeights):max(ClassHeights))#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+#
+RandomlyGeneratedHeights <- list()#
+#
+for(i in 1:25) {#
+  if(i != 13) {#
+  RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+  RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+  RandomlyGeneratedHeights[[i]] <- RandHeights#
+  } else {#
+    RandomlyGeneratedHeights[[i]] <- ClassHeights#
+  }#
+}
+RandomlyGeneratedHeights
+hist
+?hist
+hist(ClassHeights)
+hist(ClassHeights, plot = FALSE)
+lapply(RandomlyGeneratedHeights, hist, plot = FALSE)
+lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE), '[', "counts")
+lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE), '[', "counts"), unlist)
+lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE), '[', "counts"), unlist), max)
+unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE), '[', "counts"), unlist), max))
+max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE), '[', "counts"), unlist), max)))
+max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))
+par(mfrow = c(5, 5))#
+#
+hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))#
+))
+par(mfrow = c(5, 5))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))))
+par(mfrow = c(5, 5))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE)
+par(mfrow = c(5, 5))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL)
+par(mfrow = c(5, 5))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL)
+par(mfrow = c(5, 5))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)
+?par
+par(mfrow = c(5, 5))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) hist(RandHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)
+RandHeights[[i]]
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+#
+RandomlyGeneratedHeights <- list()#
+#
+for(i in 1:25) {#
+  if(i != 13) {#
+    RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+    RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+    RandomlyGeneratedHeights[[i]] <- RandHeights#
+  } else {#
+    RandomlyGeneratedHeights[[i]] <- ClassHeights#
+  }#
+}#
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+}
+RandomlyGeneratedHeights <- list()#
+#
+for(i in 1:25) {#
+  if(i != 18) {#
+    RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+    RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+    RandomlyGeneratedHeights[[i]] <- RandHeights#
+  } else {#
+    RandomlyGeneratedHeights[[i]] <- ClassHeights#
+  }#
+}#
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL)#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+}
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL, border = 0, space = 0, col = "Grey")#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red", lwd = 2)#
+}
+warnings()
+?hist
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL, border = 0, col = "Grey")#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red", lwd = 2)#
+}
+length(ClassHeights)
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL, border = 0, col = "Grey")#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red", lwd = 2)#
+}
+library(Claddis)
+x<-matrix(c(1,1,NA,0,0,NA,1,1,0,0,1,NA),3,4,byrow=T)#
+rownames(x)<-c('t1','t2','t3')#
+morph.matrix<-MakeMorphMatrix(x,ordering=rep('unord',4))
+morph.matrix
+MorphDistMatrix(morph.matrix)
+MorphDistMatrix(morph.matrix)$GED.dist.matrix
+MorphDistMatrixFast(morph.matrix)$GED.dist.matrix
+ClassHeights <- c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")#
+#
+ClassHeights <- matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))), ncol = 2, byrow = TRUE)#
+#
+ClassHeights <- (ClassHeights[, 1] * 12) + ClassHeights[, 2]#
+hist(ClassHeights, breaks = min(ClassHeights):max(ClassHeights))#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+#
+RandomlyGeneratedHeights <- list()#
+#
+for(i in 1:25) {#
+  if(i != 18) {#
+    RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+    RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+    RandomlyGeneratedHeights[[i]] <- RandHeights#
+  } else {#
+    RandomlyGeneratedHeights[[i]] <- ClassHeights#
+  }#
+}#
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL, border = 0, col = "Grey")#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red", lwd = 2)#
+}#
+hist(x = ClassHeights, col = rgb(1, 0, 0, 0.5), add = TRUE, breaks = min(ClassHeights):max(ClassHeights))
+ClassHeights <- c("5'5\"", "6'0\"", "5'6\"", "5'7\"", "5'10\"", "5'6\"", "6'5\"", "6'1\"", "5'8\"", "5'10\"", "5'6\"", "5'2\"", "5'9\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'3\"", "6'2\"", "5'10\"", "6'5\"", "5'7\"", "5'7\"", "5'10\"", "6'2\"", "5'3\"", "5'5\"", "5'7\"", "5'0\"", "5'11\"", "4'4\"", "5'1\"", "5'9\"", "6'2\"", "5'9\"", "5'7\"", "5'5\"", "5'6\"", "5'7\"", "6'2\"", "6'2\"", "5'10\"", "6'2\"", "5'5\"", "5'7\"")#
+#
+ClassHeights <- matrix(as.numeric(unlist(strsplit(ClassHeights, split = "\"|'"))), ncol = 2, byrow = TRUE)#
+#
+ClassHeights <- (ClassHeights[, 1] * 12) + ClassHeights[, 2]#
+hist(ClassHeights, breaks = min(ClassHeights):max(ClassHeights))#
+#
+FittedNormal <- dnorm(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+#
+points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red")#
+#
+RandomlyGeneratedHeights <- list()#
+#
+for(i in 1:25) {#
+  if(i != 18) {#
+    RandHeights <- rnorm(length(ClassHeights), mean = mean(ClassHeights), sd = sd(ClassHeights))#
+    RandHeights <- RandHeights[intersect(which(RandHeights >= min(ClassHeights)), which(RandHeights <= max(ClassHeights)))]#
+    RandomlyGeneratedHeights[[i]] <- RandHeights#
+  } else {#
+    RandomlyGeneratedHeights[[i]] <- ClassHeights#
+  }#
+}#
+par(mfrow = c(5, 5), mar = c(0,0,0,0))#
+#
+for(i in 1:25) {#
+  hist(RandomlyGeneratedHeights[[i]], breaks = min(ClassHeights):max(ClassHeights), ylim = c(0, max(unlist(lapply(lapply(lapply(lapply(RandomlyGeneratedHeights, hist, plot = FALSE, breaks = min(ClassHeights):max(ClassHeights)), '[', "counts"), unlist), max)))), axes = FALSE, xlab = NULL, ylab = NULL, main = NULL, border = 0, col = "Grey")#
+  points(x = seq(from = min(ClassHeights), to = max(ClassHeights), length.out = 1000), y = FittedNormal * length(ClassHeights), type = "l", col = "Red", lwd = 2)#
+}
+setwd("~/Documents/Teaching/University of Leeds/SOEE1470/2017-2018/Ammonite_quadrats")#
+#
+CSVFiles <- list.files()[grep(".csv", list.files())]#
+#
+AllQuadrats <- matrix(nrow = 0, ncol = 7, dimnames = list(c(), c("Quadrat_number", "Ammonite_number", "X_coordinate", "Y_coordinate", "Diameter_mm", "N_chambers", "Aperture_bearing_degrees")))#
+#
+for(i in CSVFiles) {#
+  currentCSV <- read.csv(i)#
+  currentCSV <- cbind(rep(strsplit(i, "_|\\.")[[1]][2], 20), currentCSV)#
+  AllQuadrats <- rbind(AllQuadrats, currentCSV)#
+}
+AllQUadrats
+AllQuadrats
+plot(dnorm(seq(from = -5, to = 5, length.out = 1000)), type = "l", axes = FALSE, xlab = "", ylab = "", lwd = 3)#
+points(dt(seq(from = -5, to = 5, length.out = 1000), df = 1), type = "l", col = "Red", lwd = 3)#
+points(dt(seq(from = -5, to = 5, length.out = 1000), df = 5), type = "l", col = "Purple", lwd = 3)#
+points(dt(seq(from = -5, to = 5, length.out = 1000), df = 10), type = "l", col = "Blue", lwd = 3)
+c(0, 3, 4, 24, 34, 36, 40, 57, 78, 85, 98, 103, 106, 113, 120, 171, 175, 181, 186, 203, 211, 225, 228, 230, 251)
+c(0, 3, 4, 24, 34, 36, 40, 57, 78, 85, 98, 103, 106, 113, 120, 171, 175, 181, 186, 203, 211, 225, 228, 230, 251) + 1
+setwd("~/Documents/Teaching/University of Leeds/SOEE1470/2017-2018/Ammonite_quadrats")#
+#
+CSVFiles <- list.files()[grep(".csv", list.files())]#
+#
+AllQuadrats <- matrix(nrow = 0, ncol = 7, dimnames = list(c(), c("Quadrat_number", "Ammonite_number", "X_coordinate", "Y_coordinate", "Diameter_mm", "N_chambers", "Aperture_bearing_degrees")))#
+#
+for(i in CSVFiles) {#
+  currentCSV <- read.csv(i)#
+  currentCSV <- cbind(rep(strsplit(i, "_|\\.")[[1]][2], 20), currentCSV)#
+  AllQuadrats <- rbind(AllQuadrats, currentCSV)#
+}#
+#
+write.csv(AllQuadrats, file = "/Users/eargtl/Documents/Teaching/University of Leeds/SOEE1470/2017-2018/Ammonite_quadrats/AllQuadrats.csv", row.names = FALSE)
