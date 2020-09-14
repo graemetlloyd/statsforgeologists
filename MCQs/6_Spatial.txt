@@ -1,0 +1,114 @@
+Ten Multiple Choice Questions on the spatial statistics lecture and practical
+
+Pick ONE answer for each question.
+
+1. A clustered point distribution can be considered:
+	- Heterogeneous and isotropic
+	- Homogeneous and isotropic
+	- Homogeneous and anisotropic
+	- Heterogeneous and anisotropic
+Correct!
+
+Heterogeneous and isotropic. Our four main point distribution patterns can generally be placed on a scale from most homogenous (regular; equal density per unit area) to most heterogeneous (clustered; highly variable density per unit area). Clustered distributions would represent pockets of very high density surrounded by areas of very low density – i.e., heterogeneous. Anisotropy is harder to test for but generally it would be harder to see in a clustered distribution as by definition the data are unlikely to fall out on parallel lines as they will be too clumped within their clusters.
+Incorrect.
+
+Heterogeneous and isotropic. Our four main point distribution patterns can generally be placed on a scale from most homogenous (regular; equal density per unit area) to most heterogeneous (clustered; highly variable density per unit area). Clustered distributions would represent pockets of very high density surrounded by areas of very low density – i.e., heterogeneous. Anisotropy is harder to test for but generally it would be harder to see in a clustered distribution as by definition the data are unlikely to fall out on parallel lines as they will be too clumped within their clusters.
+2. In testing for a uniform point distribution in lecture you divided your quadrat into four quadrants. How many degrees of freedom did this represent in your Chi-squared test?
+	- 3
+	- 4
+	- 16
+	- 17
+Correct!
+
+As we were testing for a uniform distribution the “binning” of the data was by quadrant and hence the answer is the number of quadrants (4) minus one: 3. When testing for a random distribution we binned the data differently (17 values, from 0 to 16) which would represent 16 degree of freedom.
+Incorrect.
+
+As we were testing for a uniform distribution the “binning” of the data was by quadrant and hence the answer is the number of quadrants (4) minus one: 3. When testing for a random distribution we binned the data differently (17 values, from 0 to 16) which would represent 16 degree of freedom.
+3. What happens to the mode of a Chi-squared distribution as the degrees of freedom increase?	
+	- It shifts to the right (becomes larger)
+	- It shifts to the left (becomes smaller)
+	- Nothing, but the variance increases
+	- Nothing, but the variance decreases
+Correct!
+
+The mode is the most common value, i.e., the peak in a histogram. Here it shifts to the right (becomes larger). This should have been noticeable from the slides in lecture. The variance will increase too, but the mode will always shift further to the right (not stay static). (We should also be careful about using something like variance when we know the distribution is not normal.)  Ultimately this changes how we interpret a specific Chi-squared value and thus we always need to know the shape of this distribution (accept when our Chi-squared value is exactly zero or infinity—unlikely in most real world scenarios!).
+Incorrect.
+
+The mode is the most common value, i.e., the peak in a histogram. Here it shifts to the right (becomes larger). This should have been noticeable from the slides in lecture. The variance will increase too, but the mode will always shift further to the right (not stay static). (We should also be careful about using something like variance when we know the distribution is not normal.)  Ultimately this changes how we interpret a specific Chi-squared value and thus we always need to know the shape of this distribution (accept when our Chi-squared value is exactly zero or infinity—unlikely in most real world scenarios!).
+4. A test is done on a point distribution using the Nearest Neighbour Index (R) and a value of 0.2 is found. Which kind of point distribution does this best correspond to?
+	- Clustered
+	- Regular
+	- Uniform
+	- Random
+Correct!
+
+Clustered. A value approximating 1 is a random distribution and values above this represent uniform distributions and below clustered distributions. At the extreme (all points occupy the same space) R would be zero, so being this close to zero strongly suggests a clustered point distribution.
+Incorrect.
+
+Clustered. A value approximating 1 is a random distribution and values above this represent uniform distributions and below clustered distributions. At the extreme (all points occupy the same space) R would be zero, so being this close to zero strongly suggests a clustered point distribution.
+5. A 3D regression is performed using the equation z = ax + by + c. What physical form would this regression have?
+	- A plane
+	- A dome
+	- A bowl
+	- A complex series of ridges and valleys
+Correct!
+
+A plane. More terms are required to fit a dome or bowl (and the parameters (a, b, c etc.) would have to be known to choose between these two). A complex series of ridges and valleys would only be possible with a third or higher order equation which becomes extremely complex to deal with.
+Incorrect.
+
+A plane. More terms are required to fit a dome or bowl (and the parameters (a, b, c etc.) would have to be known to choose between these two). A complex series of ridges and valleys would only be possible with a third or higher order equation which becomes extremely complex to deal with.
+6. In testing for a random point distribution in practical you divided your quadrat into twenty-five grid cells. How many degrees of freedom did you use in your Chi-squared test?
+	- 10
+	- 11
+	- 24
+	- 25
+Correct!
+
+The key here is that we are testing for a random distribution so we are binning our data by numbers of ammonites in a grid cell. We used eleven bins (zero to ten) and hence there are ten degrees of freedom. For the uniform distribution we used the grid cells (twenty-five) and so the degrees of freedom there would be twenty-four.
+Incorrect.
+
+The key here is that we are testing for a random distribution so we are binning our data by numbers of ammonites in a grid cell. We used eleven bins (zero to ten) and hence there are ten degrees of freedom. For the uniform distribution we used the grid cells (twenty-five) and so the degrees of freedom there would be twenty-four.
+7. Under a uniform distribution across your twenty-five grid cells how many ammonites did you expect in each cell?
+	- 0.8
+	- 1
+	- 1.25
+	- 0
+Correct!
+
+This is given by the total number of ammonites (twenty) by the number of grid cells (twenty-five) and hence is four-fifths, or 0.8. Obviously in practice we can never count 0.8 ammonites and so it would be mathematically impossible to get a Chi-squared value of zero here, but the test already accounts for this with the degrees of freedom term so never round this up to a whole number! However, you should still have found your data are best explained by a uniform distribution. Note that more generally in statistics expectations can be mathematically impossible values. E.g., flipping a fair coin once we expect 0.5 heads, rolling a six-sided die once we expect a value of 3.5. Lesson 2 always applies!
+Incorrect.
+
+This is given by the total number of ammonites (twenty) by the number of grid cells (twenty-five) and hence is four-fifths, or 0.8. Obviously in practice we can never count 0.8 ammonites and so it would be mathematically impossible to get a Chi-squared value of zero here, but the test already accounts for this with the degrees of freedom term so never round this up to a whole number! However, you should still have found your data are best explained by a uniform distribution. Note that more generally in statistics expectations can be mathematically impossible values. E.g., flipping a fair coin once we expect 0.5 heads, rolling a six-sided die once we expect a value of 3.5. Lesson 2 always applies!
+8. Under a random point distribution, you calculated an expected mean nearest neighbour distance for your quadrat. What was this distance, in millimetres?
+	- 111.8034
+	- 1.118034
+	- 11.18034
+	- 1118.034
+Correct!
+
+This distance is half the square root of the total area divided by the number of objects. Here the area was 1,000 by 1,000 millimetres and there are twenty objects (ammonites). Thus the correct value is 111.8034 millimetres. The other answers mostly correspond to different units (centimetres, etc.). The important thing is to be consistent with the units you do use.
+Incorrect.
+
+This distance is half the square root of the total area divided by the number of objects. Here the area was 1,000 by 1,000 millimetres and there are twenty objects (ammonites). Thus the correct value is 111.8034 millimetres. The other answers mostly correspond to different units (centimetres, etc.). The important thing is to be consistent with the units you do use.
+9. Which point distribution pattern did the Nearest Neighbour Index (R) from your quadrat best correspond to?
+	- Uniform
+	- Regular
+	- Random
+	- Clustered
+Correct!
+
+Although the exact value will vary by quadrat you should have found a value for R somewhere between 1 (random) and 2.15 (perfectly regular). I.e., the data are uniformly distributed. This should agree with the other grid cell approaches you applied and so you should be happy that this is the point distribution the ammonites follow. If this surprises you then you should start to think about why that might be the case (part of the likely explanation was given at the start of lecture).
+Incorrect.
+
+Although the exact value will vary by quadrat you should have found a value for R somewhere between 1 (random) and 2.15 (perfectly regular). I.e., the data are uniformly distributed. This should agree with the other grid cell approaches you applied and so you should be happy that this is the point distribution the ammonites follow. If this surprises you then you should start to think about why that might be the case (part of the likely explanation was given at the start of lecture).
+10. When you performed the 3D regression of a plane on your rock contact which way did it dip?
+	- South-East
+	- South-West
+	- North-East
+	- North-West
+Correct!
+
+This requires you to know which way North is on the 3D plot. The guide here is the horizontal axes that represent Eastings and Northings, i.e., they increase towards the East and North respectively. Once you know this it should be obvious that the plane dips towards the South-East. Although note that because your axes are not plotted to the same scale the angle of the dip is misleading, making it hard to estimate its absolute value.
+Incorrect.
+
+This requires you to know which way North is on the 3D plot. The guide here is the horizontal axes that represent Eastings and Northings, i.e., they increase towards the East and North respectively. Once you know this it should be obvious that the plane dips towards the South-East. Although note that because your axes are not plotted to the same scale the angle of the dip is misleading, making it hard to estimate its absolute value.

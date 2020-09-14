@@ -1,0 +1,114 @@
+Ten Multiple Choice Questions on the Univariate statistics lecture and practical
+
+Pick ONE answer for each question.
+
+1. From photographs of thin sections you were able to measure the relative proportions of Pyroxene, Plagioclase, and Olivine in a rock sample. What kind of data does this represent?
+	- Closed scale continuous
+	- Nominal/Categorical
+	- Discrete count data
+	- Ordinal scale continuous
+Correct!
+
+As this is percentage data it is closed scale continuous. Ordinal scale continuous is not a data type (it makes no sense), and the data are not discrete as decimal places are logically allowed (59.23% for example). Although the minerals have names the measurement is their proportions so it is not nominal/categorical either.
+Incorrect.
+
+As this is percentage data it is closed scale continuous. Ordinal scale continuous is not a data type (it makes no sense), and the data are not discrete as decimal places are logically allowed (59.23% for example). Although the minerals have names the measurement is their proportions so it is not nominal/categorical either.
+2. How does the dispersion metric Variance relate to Standard Deviation?
+	- It is the square of the Standard Seviation
+	- It is the square root of the Standard Deviation
+	- They do not relate; they capture different aspects of the spread of points around the mean
+	- The Variance encompasses 50% of the values, and the Standard Deviation 68.2%
+Correct!
+
+As the Standard Deviation is the square root of the Variance, the Variance is the square of the Standard Deviation. They are most definitely related, but logically the variance does not correspond to a particular proportion of the area under a normal distribution.
+Incorrect.
+
+As the Standard Deviation is the square root of the Variance, the Variance is the square of the Standard Deviation. They are most definitely related, but logically the variance does not correspond to a particular proportion of the area under a normal distribution.
+3. Why were you given specific instructions on how to measure the diameter of your ammonites?
+	- Because otherwise a major source of measurement error could be introduced into the data
+	- Because ammonites are perfect circles
+	- Because the soft parts (tentacles, eyes) are not preserved
+	- Because there was no other source of scale
+Correct!
+
+Because otherwise a major source of measurement error could be introduced into the data. Ammonites are not perfect circles, the preservation of soft parts is not important as this is true of all of our ammonites and there were definitely other sources of scale (you were told your quadrat is 1 metre by 1 metre and there is a scale bar at bottom right).
+Incorrect.
+
+Because otherwise a major source of measurement error could be introduced into the data. Ammonites are not perfect circles, the preservation of soft parts is not important as this is true of all of our ammonites and there were definitely other sources of scale (you were told your quadrat is 1 metre by 1 metre and there is a scale bar at bottom right).
+4. How does the shape of the t-distribution change as sample size increases?
+	- It better approximates the Normal distribution
+	- It becomes wider
+	- It beoomes more symmetric
+	- It becomes less symmetric
+Correct!
+
+It better approximates the Normal distribution (check the appropriate slide from lecture). It becomes "wider" (larger spread of values for same area under curve) as the sample size decreases, and the distribution is already perfectly symmetric so its’ symmetry does not change.
+Incorrect.
+
+It better approximates the Normal distribution (check the appropriate slide from lecture). It becomes "wider" (larger spread of values for same area under curve) as the sample size decreases, and the distribution is already perfectly symmetric so its’ symmetry does not change.
+5. What does a two-sample t-test give the probability of?
+	- That the two samples are derived from populations with the same mean
+	- That the population mean is a specific value
+	- The range of values for the population mean
+	- That the two samples are derived from the same population
+Correct!
+
+That the two samples are derived from populations with the same mean. We usually intend this to tell us about whether our two samples are drawn from the same population, but mathematically this answer is indistinguishable from two populations with the same mean so this is the safer way to interpret the data. Testing for a specific mean value or returning a range of values for the population mean are applications of the one-sample t-test.
+Incorrect.
+
+That the two samples are derived from populations with the same mean. We usually intend this to tell us about whether our two samples are drawn from the same population, but mathematically this answer is indistinguishable from two populations with the same mean so this is the safer way to interpret the data. Testing for a specific mean value or returning a range of values for the population mean are applications of the one-sample t-test.
+6. We collected our ammonite data by applying a spatial sampling strategy (dividing up a space into 1 metre by 1 metre quadrats). Why is this a good strategy?
+	- Avoids collection bias (e.g., conciously or subconsciously only measuring large individuals)
+	- Because there will always be a sufficiently large sample in a 1 metre by 1 metre square
+	- Because it divides the labour of measuring equally
+	- Because a square is less likely to lead to biased samples than other shapes
+Correct!
+
+This avoids collection bias (e.g., consciously or subconsciously only measuring large individuals) as we will measure all the individuals in our quadrat. We can’t say anything about the sufficiency of sample size in a quadrat as this will vary massively depending on what is being measured, and generally speaking collection biases are higher priority than labour. There is nothing special about the square shape in terms of sampling bias, but in this case it tessellates well with all other quadrats meaning ultimately we could combine the data into a single massive 10 metre by 10 metre quadrat if we wanted to.
+Incorrect.
+
+This avoids collection bias (e.g., consciously or subconsciously only measuring large individuals) as we will measure all the individuals in our quadrat. We can’t say anything about the sufficiency of sample size in a quadrat as this will vary massively depending on what is being measured, and generally speaking collection biases are higher priority than labour. There is nothing special about the square shape in terms of sampling bias, but in this case it tessellates well with all other quadrats meaning ultimately we could combine the data into a single massive 10 metre by 10 metre quadrat if we wanted to.
+7. In the practical you tested the hypothesis that the mean ammonite diameter for the population was 200 mm. Did you find:
+	- The chances of this being the true population mean were very low (less than 5%)
+	- The chances of this being the true population mean were low (5-25%)
+	- The chances of this being the true population mean were moderate (25-75%)
+	- The chances of this being the true population mean were high (over 75%)
+Correct!
+
+You should have found the chances were very low (less than 5%). Although everyone's exact value will vary (quadrats are unique), I already have every measurement and know this should be the case for everyone. So if you found a higher probability this suggests you made some error in your measurements that you should correct before next week's practical as we will reuse this data in a new context then.
+Incorrect.
+
+You should have found the chances were very low (less than 5%). Although everyone's exact value will vary (quadrats are unique), I already have every measurement and know this should be the case for everyone. So if you found a higher probability this suggests you made some error in your measurements that you should correct before next week's practical as we will reuse this data in a new context then.
+8. Why might we be less concerned that our jockey sample is skewed male than we were about our basketball sample?
+	- Because the expected sex bias operates in the opposite direction to the expected profession bias
+	- Because the expected sex bias operates in the same direction to the expected profession bias
+	- Because male jockeys and female jockeys are drawn from populations with the same mean
+	- Because male basketball players and female basketball players are drawn from populations with different means
+Correct!
+
+Because the expected sex bias (mean male height > mean female height) operates in the opposite direction to the expected profession bias (mean geologists/basketball player height > mean jockey height). In other words, if we find (as we did) that jockeys are probably drawn from a population with smaller mean height this cannot be attributed to having more males in the sample.
+Incorrect.
+
+Because the expected sex bias (mean male height > mean female height) operates in the opposite direction to the expected profession bias (mean geologists/basketball player height > mean jockey height). In other words, if we find (as we did) that jockeys are probably drawn from a population with smaller mean height this cannot be attributed to having more males in the sample.
+9. For the ANOVA samples what was the order of treatment size (number of replicates), from largest to smallest?
+	- Basketball players, geologists, jockeys
+	- Geologists, basketball players, jockeys
+	- Jockeys, basketball players, geologists
+	- Jockeys, geologists, basketball players
+Correct!
+
+Basketball players (28), geologists (22), jockeys (18). The small sample sizes turned out not to affect the result as the effect size was so large.
+Incorrect.
+
+Basketball players (28), geologists (22), jockeys (18). The small sample sizes turned out not to affect the result as the effect size was so large.
+10. For the full set of t-tests which two professions had the highest probability of sharing a population mean?
+	- Jockeys and geologists
+	- Basketball players and geologists
+	- Basketball players and jockeys
+	- All pairs were equally probable
+Correct!
+
+Jockeys and geologists. This shouldn’t surprise us their sample means were much closer to each other than any other pair.
+Incorrect.
+
+Jockeys and geologists. This shouldn’t surprise us their sample means were much closer to each other than any other pair.

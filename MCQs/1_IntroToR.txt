@@ -1,0 +1,123 @@
+Ten Multiple Choice Questions on the introductory practical
+
+Pick ONE answer for each question.
+
+1. What does this symbol (<-) indicate in R?
+  - The data (to the right) are being stored in the variable (to the left)
+  - The data (to the left) are being stored in the variable (to the right)
+  - The data are in the form of a table
+  - The data are in the form of a vector
+Correct!
+
+That the data (to the right) are being stored in the variable (to the left). It doesn't tell us anything about what the data are. It could be a vector, a table, or a single number.
+Incorrect.
+
+That the data (to the right) are being stored in the variable (to the left). It doesn't tell us anything about what the data are. It could be a vector, a table, or a single number.
+
+2. In R what kind of data are stored in a vector?
+  - A single row or column of values
+  - A single value
+  - Numeric data only
+  - Text (character) data only
+Correct!
+
+A single row or column of values. A single value is typically known as a SCALAR and vectors can be used to store any kind of data (numeric or text).
+Incorrect.
+
+A single row or column of values. A single value is typically known as a SCALAR and vectors can be used to store any kind of data (numeric or text).
+
+3. Which of the following fits the criteria for an ideal variable name in R?
+  - TyrannosaurBodyMasses
+  - Tyrannosaur body masses
+  - x
+  - tyrannosaurbodymasses
+Correct!
+
+TyrannosaurBodyMasses. Names with spaces (Tyrannosaur body masses) are not allowed, and names comprising multiple words without some visual separation (camel or snake case) are hard to read (tyrannosaurbodymasses). Finally, names that provide no useful information about the contents of the variable (x) are unhelpful for a human to read.
+Incorrect.
+
+TyrannosaurBodyMasses. Names with spaces (Tyrannosaur body masses) are not allowed, and names comprising multiple words without some visual separation (camel or snake case) are hard to read (tyrannosaurbodymasses). Finally, names that provide no useful information about the contents of the variable (x) are unhelpful for a human to read.
+
+4. What is the syntax for accessing only part of a variable in R?
+  - Square brackets, []
+  - Curly braces, {}
+  - Parentheses, ()
+  - Greater than/less than symbols, <>
+Correct!
+
+Square brackets, []. Curly braces, {} are used when writing functions or loops (things we won't really cover on this course). Parentheses, (), are used by functions to contain any data or options and greater than/less than symbols, <>, are used in other languages such as HTML and XML.
+Incorrect.
+
+Square brackets, []. Curly braces, {} are used when writing functions or loops (things we won't really cover on this course). Parentheses, (), are used by functions to contain any data or options and greater than/less than symbols, <>, are used in other languages such as HTML and XML.
+
+5. Which of the following is a function in R?
+  - unique
+  - TyrannosaurBodyMasses
+  - VolcanoData
+  - x
+Correct!
+
+unique. This returns the unique values (removes any duplicates) from whatever data is handed to it. The other three (TyrannosaurBodyMasses, VolcanoData, x) are all names we gave to variables in the practical.
+Incorrect.
+
+unique. This returns the unique values (removes any duplicates) from whatever data is handed to it. The other three (TyrannosaurBodyMasses, VolcanoData, x) are all names we gave to variables in the practical.
+
+6. What will the colnames() function tell you about a table in R?
+  - The names of the columns, if present
+  - The names of each value in the vector, if present
+  - The names of the rows, if present
+  - The colour names used for plotting
+Correct!
+
+The names of the columns, if present. Vector names are given using "names()", row names using "rownames()", and colour names are usually provided to the "col" option inside of a plotting function (e.g., col = "Black").
+Incorrect.
+
+The names of the columns, if present. Vector names are given using "names()", row names using "rownames()", and colour names are usually provided to the "col" option inside of a plotting function (e.g., col = "Black").
+
+7. What is the "c()" function's name short for in R?
+  - Combine
+  - Colours
+  - Columns
+  - Character
+Correct!
+
+Combine (you may also sometimes see it referred to as concatenate). A scatter plot. A histogram is "hist()", a box plot "boxplot()", and a bar plot "barplot()".
+Incorrect.
+
+Combine (you may also sometimes see it referred to as concatenate). A scatter plot. A histogram is "hist()", a box plot "boxplot()", and a bar plot "barplot()".
+
+8. What kind of plot does the "plot()" function generate?
+  - A scatter plot
+  - A histogram
+  - A box plot
+  - A bar plot
+Correct!
+
+A scatter plot. A histogram is "hist()", a box plot "boxplot()", and a bar plot "barplot()".
+Incorrect.
+
+A scatter plot. A histogram is "hist()", a box plot "boxplot()", and a bar plot "barplot()".
+
+9. Relative to other tyrannosaurs we found T. rex to be:
+  - Anomalously large
+  - Typical (of average size)
+  - Anomalously small
+  - Amongst the middle 50% of body sizes
+Correct!
+
+Relative to other tyrannosaurs we found T. rex to be anomalously large (the sole outlier on the box plot). The average was under 1000 Kg, no values were anomalously small (there were no outliers at the bottom of the box plot), and the middle 50% of values were much smaller than T. rex.
+Incorrect.
+
+Relative to other tyrannosaurs we found T. rex to be anomalously large (the sole outlier on the box plot). The average was under 1000 Kg, no values were anomalously small (there were no outliers at the bottom of the box plot), and the middle 50% of values were much smaller than T. rex.
+
+10. What kind of volcanoes did we find to most typically have a negative elevation?
+  - Submarine volcanoes
+  - Stratovolcanoes
+  - Shield volcanoes
+  - Calderas
+Correct!
+
+Submarine volcanoes. This shouldn't surprise us!
+Incorrect.
+
+Submarine volcanoes. This shouldn't surprise us!

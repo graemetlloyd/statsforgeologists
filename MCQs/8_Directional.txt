@@ -1,0 +1,114 @@
+Ten Multiple Choice Questions on the directional statistics lecture and practical
+
+Pick ONE answer for each question.
+
+1. As part of a field trip to Scotland you have collected some orientation data from dike swarms. What modulo value, in degrees, should you treat them as having?
+	- 180
+	- 360
+	- 90
+	- None. The data are closed, not modulo.
+Correct!
+
+180. Orientation data can always be represented by two values (e.g., 90 and 270). As such it is best practice to only use the smaller value, meaning all orientation data can be plotted on half of the circle (0-180). Thus a modulo value of 180 is appropriate. 360 would be for directional data (all values possible), 90 doesn’t have an obvious modulo application for geological data and angles from horizontal (dips, plunges) would more correctly be considered closed.
+Incorrect.
+
+180. Orientation data can always be represented by two values (e.g., 90 and 270). As such it is best practice to only use the smaller value, meaning all orientation data can be plotted on half of the circle (0-180). Thus a modulo value of 180 is appropriate. 360 would be for directional data (all values possible), 90 doesn’t have an obvious modulo application for geological data and angles from horizontal (dips, plunges) would more correctly be considered closed.
+2. What kind of graph plots points along the edge of a circle?
+	- Circle plot
+	- Rose diagram
+	- Resultant path
+	- von Mises distribution
+Correct!
+
+Circle plot. A rose diagram is a circular histogram, a resultant path is simply several vectors plotted in sequence, and the von Mises distribution is the circular normal.
+Incorrect.
+
+Circle plot. A rose diagram is a circular histogram, a resultant path is simply several vectors plotted in sequence, and the von Mises distribution is the circular normal.
+3. After processing some flute cast data, you got a mean resultant length of 0.95. How far short is this of the maximum possible value?
+	- 0.05
+	- 0.95
+	- There is no maximum value
+	- There is no way to tell without knowing n
+Correct!
+
+0.05. The only issue here is recognizing that this is the mean resultant length and not the resultant length. Thus there is a maximum value and we do not need to know n as this has already been used to generate the mean value. Mean resultant lengths must fall on the zero to one scale, with one thus the maximum value.
+Incorrect.
+
+0.05. The only issue here is recognizing that this is the mean resultant length and not the resultant length. Thus there is a maximum value and we do not need to know n as this has already been used to generate the mean value. Mean resultant lengths must fall on the zero to one scale, with one thus the maximum value.
+4. What is the circular variance for the flute cast data?
+	- 0.05
+	- 0.95
+	- There is no way to tell without knowing n
+	- 0
+Correct!
+
+0.05. This is simply one minus the mean resultant length. Again, because we know that this is the mean resultant there is no concern about n.
+Incorrect.
+
+0.05. This is simply one minus the mean resultant length. Again, because we know that this is the mean resultant there is no concern about n.
+5. What is the concentration parameter of the von Mises distribution better known as?
+	- Kappa
+	- Mu
+	- Sigma
+	- Delta
+Correct!
+
+Kappa. Mu is the mean and sigma and delta are not parameters of the von Mises distribution.
+Incorrect.
+
+Kappa. Mu is the mean and sigma and delta are not parameters of the von Mises distribution.
+6. In practical we encountered the default formatting of circular data in R. What issues did we find?
+	- By default, data are plotted counterclockwise with zero at the right
+	- By default, data are plotted counterclockwise with zero at the left
+	- By default, data are plotted counterclockwise with zero at the bottom
+	- By default, data are plotted counterclockwise with zero at the top
+Correct!
+
+By default, data are plotted counterclockwise with zero at the right. As geologists we logically want zero at the top and the data plotted clockwise, but these options had to be specified.
+Incorrect.
+
+By default, data are plotted counterclockwise with zero at the right. As geologists we logically want zero at the top and the data plotted clockwise, but these options had to be specified.
+7. In practical you calculated the mean resultant length and corresponding circular variance for your ammonite bearings. Did these indicate:
+	- A large mean resultant length and low circular variance
+	- A large mean resultant length and high circular variance
+	- A small mean resultant length and low circular variance
+	- A small mean resultant length and high circular variance
+Correct!
+
+A large mean resultant length and low circular variance. You should have found your mean resultant length was much closer to one than zero, indicating low circular variance (much closer to zero than one). It would not be logical for the mean resultant length and circular variance to both be high or both be low as they must sum to one. Finally, a low mean resultant length would indicate much higher variance in the bearings, but you should visually have confirmed that this is not the case (your bearing are all very close to North).
+Incorrect.
+
+A large mean resultant length and low circular variance. You should have found your mean resultant length was much closer to one than zero, indicating low circular variance (much closer to zero than one). It would not be logical for the mean resultant length and circular variance to both be high or both be low as they must sum to one. Finally, a low mean resultant length would indicate much higher variance in the bearings, but you should visually have confirmed that this is not the case (your bearing are all very close to North).
+8. For your own ammonite quadrat bearings, you performed a Rayleigh test. If using an Alpha of 0.05 would you:
+	- Reject the null; data are not uniformly distributed
+	- Reject the null; data are uniformly distributed
+	- Accept the null; data are not uniformly distributed
+	- Accept the null; data are uniformly distributed
+Correct!
+
+Reject the null; data are not uniformly distributed. The Rayleigh test tests for uniformity and hence this is the null model. You should find that your data are distinctly non-uniform and hence have easily rejected the null. Remember, though, that rejecting uniformity does not confirm the true pattern as there are multiple ways for data to be non-uniform.
+Incorrect.
+
+Reject the null; data are not uniformly distributed. The Rayleigh test tests for uniformity and hence this is the null model. You should find that your data are distinctly non-uniform and hence have easily rejected the null. Remember, though, that rejecting uniformity does not confirm the true pattern as there are multiple ways for data to be non-uniform.
+9. For your own quadrat bearings, you applied two Chi-squared tests using an Alpha of 0.01. Did you find:
+	- Your data were non-uniform and non-random
+	- Your data were uniform and non-random
+	- Your data were non-uniform and random
+	- Your data were uniform and random
+Correct!
+
+Your data were non-uniform and non-random. You should have rejected the null for both Chi-squared tests (Chi-squared value > critical value), the first having an expectation of uniformly distributed bearings and the second one of randomly-distributed bearings. These results are consistent as there are multiple ways for data to be both non-uniform and non-random. I.e., here there is a clear cluster at North.
+Incorrect.
+
+Your data were non-uniform and non-random. You should have rejected the null for both Chi-squared tests (Chi-squared value > critical value), the first having an expectation of uniformly distributed bearings and the second one of randomly-distributed bearings. These results are consistent as there are multiple ways for data to be both non-uniform and non-random. I.e., here there is a clear cluster at North.
+10. In practical you compared your own ammonite quadrat bearings with those taken from higher in the sequence using a Watson Two-sample test and an Alpha of 0.01. Did you find:
+	- A statistically significant shift from a palaeocurrent trending North, to one trending East
+	- A statistically significant shift from a palaeocurrent trending East, to one trending North
+	- No evidence to support a change in palaeocurrent direction (samples are drawn from populations with equal means)
+	- A statistically significant result, but no perceptible shift in palaeocurrent direction
+Correct!
+
+A statistically significant shift from a palaeocurrent trending North, to one trending East. We can use the principle of superposition to know that our higher bed is younger and hence represents a later palaeocurrent than the one from your ammonite quadrat. You should also have found you can safely reject the null of shared population means for your two samples. There is thus a statistically significant shift from a palaeocurrent trending North (the conclusion you should have come to for your own data) to one trending East (the conclusion you should have come to from plotting the upper bed data).
+Incorrect.
+
+A statistically significant shift from a palaeocurrent trending North, to one trending East. We can use the principle of superposition to know that our higher bed is younger and hence represents a later palaeocurrent than the one from your ammonite quadrat. You should also have found you can safely reject the null of shared population means for your two samples. There is thus a statistically significant shift from a palaeocurrent trending North (the conclusion you should have come to for your own data) to one trending East (the conclusion you should have come to from plotting the upper bed data).

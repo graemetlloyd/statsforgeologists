@@ -1,0 +1,114 @@
+Ten Multiple Choice Questions on the null hypothesis statistical testing lecture and practical
+
+Pick ONE answer for each question.
+
+1. What is the standard error of the mean?
+	- The standard deviation of the sample means
+	- The square of the standard deviation
+	- The standard deviation of the population
+	- The standard deviation of the sample
+Correct!
+
+The standard deviation of the sample means. Variance is the square of the standard deviation, the Greek letter sigma is the standard deviation of the population, and the Roman letter s is the standard deviation of the sample.
+Incorrect.
+
+The standard deviation of the sample means. Variance is the square of the standard deviation, the Greek letter sigma is the standard deviation of the population, and the Roman letter s is the standard deviation of the sample.
+2. What effect does increasing the sample size have on the width of a confidence interval drawn from a t-distribution?
+	- It decreases it
+	- It increases it
+	- It has no effect
+	- It changes the confidence-level
+Correct!
+
+It decreases it. We saw this in lecture, but this is why the t-distribution is useful as it becomes more normal (less wide) as our sample size increases and our uncertainty reduces. This does not change the confidence-level as we choose this ourselves (i.e., it is one minus alpha or the “level” option inside of R).
+Incorrect.
+
+It decreases it. We saw this in lecture, but this is why the t-distribution is useful as it becomes more normal (less wide) as our sample size increases and our uncertainty reduces. This does not change the confidence-level as we choose this ourselves (i.e., it is one minus alpha or the “level” option inside of R).
+3. In lecture we encountered the birthday problem. What is the minimum group size (N individuals) at which the chance that at least two people share a birthday exceed 50%?
+	- 23
+	- 13
+	- 33
+	- 43
+Correct!
+
+We encountered this in lecture, but you can confirm it yourself using the function from practical (i.e., plug in values for NIndividuals of 22 and 23).
+Incorrect.
+
+We encountered this in lecture, but you can confirm it yourself using the function from practical (i.e., plug in values for NIndividuals of 22 and 23).
+4. If the null hypothesis for a regression is a slope of zero what is the alternative hypothesis?
+	- A slope that is either greater than or less than zero
+	- A slope that is greater than zero
+	- A slope that is less than zero
+	- A slope of infinity or negative infinity
+Correct!
+
+A slope that is either greater than or less than zero. This is a test of extending the reasoning from lecture, but we also encountered this in practical. We would have to be applying a one-tailed test for the alternative to be greater than zero (right-tail) or less than zero (left-tailed). As we discovered previously a slope of infinity or negative infinity is not mathematically tractable and would indicate a failure of study design not a statistical outcome.
+Incorrect.
+
+A slope that is either greater than or less than zero. This is a test of extending the reasoning from lecture, but we also encountered this in practical. We would have to be applying a one-tailed test for the alternative to be greater than zero (right-tail) or less than zero (left-tailed). As we discovered previously a slope of infinity or negative infinity is not mathematically tractable and would indicate a failure of study design not a statistical outcome.
+5. If we apply an alpha of zero what type of error becomes impossible?
+	- Type I error
+	- Type II error
+	- Both Type I and Type II errors are impossible
+	- Both Type I and Type II errors are still possible
+Correct!
+
+Type I error. The logic here is that if we use an alpha of zero we can never reject the null, if we can never reject the null we can never incorrectly reject the null (i.e., a Type I error, or false positive). It would similarly be impossible to make Type II errors if alpha was 1. No value of alpha could make both error types impossible and any value between 0 and 1 will potentially be subject to both types of error. The important point is that for alpha to be useful it must be between zero and one and hence errors of both kinds are always possible.
+Incorrect.
+
+Type I error. The logic here is that if we use an alpha of zero we can never reject the null, if we can never reject the null we can never incorrectly reject the null (i.e., a Type I error, or false positive). It would similarly be impossible to make Type II errors if alpha was 1. No value of alpha could make both error types impossible and any value between 0 and 1 will potentially be subject to both types of error. The important point is that for alpha to be useful it must be between zero and one and hence errors of both kinds are always possible.
+6. In practical we re-examined our dinosaur species number increases and decreases. What effect did changing alpha from 0.5 to 0.05 have on the outcome?
+	- No effect. We accepted the null (increases and decreases are balanced) both times
+	- We changed from rejecting to accepting the null (increases and decreases are balanced)
+	- We changed from accepting to rejecting the null (increases and decreases are balanced)
+	- No effect. We rejected the null (increases and decreases are balanced) both times
+Correct!
+
+No effect. We accepted the null (increases and decreases are balanced) both times. This shouldn’t be surprising as our observed value (14 increases) falls right next to the most likely value (13 increases) if increases and decreases were balanced. We had to use a very high value of alpha to reject the null (0.95).
+Incorrect.
+
+No effect. We accepted the null (increases and decreases are balanced) both times. This shouldn’t be surprising as our observed value (14 increases) falls right next to the most likely value (13 increases) if increases and decreases were balanced. We had to use a very high value of alpha to reject the null (0.95).
+7. For your own ammonite diameters what did you find was different when plotting the t-distribution (confidence interval around the population mean estimate) versus the normal distribution (fitted to your data using the mean and standard deviation of your sample)?
+	- The t-distribution was much narrower (lower dispersion) than the normal distribution
+	- The t-distribution was much wider (higher dispersion) than the normal distribution
+	- They were virtually indistinguishable as the value of N was quite high
+	- The t-distribution was shifted further to the right (different location) than the normal distribution
+Correct!
+
+The t-distribution was much narrower (lower dispersion) than the normal distribution. This should make sense as the t-distribution is mimicking the distribution of sample means we encountered in lecture. The only scenario where this would theoretically not be true is if the sample size were one, but then we could have no meaningful sense of dispersion at all. Indeed samples of one are of no practical use in statistics!
+Incorrect.
+
+The t-distribution was much narrower (lower dispersion) than the normal distribution. This should make sense as the t-distribution is mimicking the distribution of sample means we encountered in lecture. The only scenario where this would theoretically not be true is if the sample size were one, but then we could have no meaningful sense of dispersion at all. Indeed samples of one are of no practical use in statistics!
+8. When using an alpha of 0.1 and a two-tailed test did you accept or reject the commercial collector's hypothesised mean ammonite diameter of 200 mm?
+	- Reject; the estimate is an implausibly large population mean
+	- Reject; the estimate is an implausibly small population mean
+	- Accept; the estimate is a plausible population mean
+	- Accept; the estimate is an implausible population mean
+Correct!
+
+Reject; the estimate is an implausibly large population mean. This should make intuitive sense from the plots you created in practical. The important thing to note is that by looking at where the critical values fall we can both reject the null and say which alternative makes the most sense (i.e., implausibly small or large population mean).
+Incorrect.
+
+Reject; the estimate is an implausibly large population mean. This should make intuitive sense from the plots you created in practical. The important thing to note is that by looking at where the critical values fall we can both reject the null and say which alternative makes the most sense (i.e., implausibly small or large population mean).
+9. When using an alpha of 0.00001 and performing a two-sample t-test for which pair of profession heights could you not reject the null hypothesis of equal population means?
+	- Geologists and jockeys
+	- Basketball players and geologists
+	- Basketball players and jockeys
+	- None; all pairs rejected the null
+Correct!
+
+Geologists and jockeys. This should make sense in that these have the closest sample means. If we made alpha increasingly smaller we would next accept equal population means for basketball players and geologists, and only if alpha got maximally small would we accept the null for basketball players and jockeys (the largest difference between sample means).
+Incorrect.
+
+Geologists and jockeys. This should make sense in that these have the closest sample means. If we made alpha increasingly smaller we would next accept equal population means for basketball players and geologists, and only if alpha got maximally small would we accept the null for basketball players and jockeys (the largest difference between sample means).
+10. For your randomly generated data (using the standard normal) what relationship did you find between the Type I error rate (proportional frequency of rejecting the null of no correlation) and the value of alpha?
+	- These were approximately equal
+	- The error rate approximated one minus alpha
+	- No relationship; the error rate was zero
+	- No relationship; the error rate was one
+Correct!
+
+You should have found they were approximately equal as alpha is also the expected Type I error rate. If we did the opposite, generated data that we knew were actually correlated, then one minus alpha would be the Type II error rate.
+Incorrect.
+
+You should have found they were approximately equal as alpha is also the expected Type I error rate. If we did the opposite, generated data that we knew were actually correlated, then one minus alpha would be the Type II error rate.
