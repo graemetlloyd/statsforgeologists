@@ -20,7 +20,18 @@ The course asssumes a standard structure of Lecture + Practical + Formative Mult
 
 ## Ammonite quadrat
 
+In order to create a sense of individual ownership over a data set that could also be used as the basis for a large range of statistical tests a series of ammonite quadrats were generated. The students are told these come from a large wave cut platform representing a Jurassic sea bed. A large ten-by-ten metre quadrat is laid out across this platform and further subdivided into one hundred one-by-one metre quadrats individually lebelled with a letter and a number with each student assigned one of these smaller data sets. Each individual data set is unique, in part to avoid plagarism. In reality this data is simulated such that each quadrat contains exactly twenty ammonites (each student has the same number of measurements to deal with), where ammonites are assigned to a quadrat based on the position of their central point (hence most quadrats will contain ammonites that extend outside their one-by-one metre grid cell).
+
+Below is an example quadrat.
+
 ![An example ammonite quadrat.](AmmoniteQuadrat.png)
+
+
+The students will iteratively learn what measurements they can take from these quadrats
+
+Binoimal based on whic side they lie on (left or right).
+
+When printed they will not be one-to-one (unless you want to spend a lot of money!) Hence also scaled rulers and protractors are provided that are intended to be printed onto acetate or other transparent material.
 
 ## References
 
