@@ -2,8 +2,6 @@
 
 ### Graeme T. Lloyd
 
-<center>Centered text</center>
-
 ## Introduction
 
 This repository contains materials (lectures, practicals and formative and summative assessments) for teaching introductory statistics to geologists. Aside from basic "standard" statistics (univariate, bivarate, multivariate) the reposotiory also includes some more specific to geology that might be less relevant to other sciences (e.g., circular statistics, plotting stereonets).
@@ -22,6 +20,7 @@ The course asssumes a standard structure of Lecture + Practical + Formative Mult
 
 ## Ammonite quadrat
 
+![Image](AmmoniteQuadrat.png)
 
 
 ## References
