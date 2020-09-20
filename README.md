@@ -10,7 +10,23 @@ These materials are released under a GNU General Public License Version 3 (see L
 
 * NOAA
 * Etna eruptions
-* Meteor http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Index.html
-* Dino body mass Benson et al. (Dryad?)
+* Meteor impact ages ([Earth Impact Database](http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Index.html))
+* Dinosaur body mass data ([Dryad repositiory for Benson et al. 2018](https://datadryad.org/stash/dataset/doi:10.5061/dryad.1t3r4))
 
-[I'm an inline-style link](https://www.google.com)
+
+
+
+## References
+
+Benson et al. 2018.
+
+Lukeneder, S., Lukeneder, A. and Weber, G. W., 2014. Computed reconstruction of spatial ammonoid-shell orientation captured from digitized grinding and landmark data. *Computers & Geosciences*, **64**, 104-114.
+
+
+# Bibliography
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+Lukeneder, S., Lukeneder, A. and Weber, G. W., 2014. Computed reconstruction of spatial ammonoid-shell orientation captured from digitized grinding and landmark data. *Computers & Geosciences*, **64**, 104-114.
