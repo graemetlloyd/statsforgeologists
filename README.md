@@ -20,8 +20,7 @@ The course asssumes a standard structure of Lecture + Practical + Formative Mult
 
 ## Ammonite quadrat
 
-![Image](AmmoniteQuadrat.png)
-
+![An example ammonite quadrat.](AmmoniteQuadrat.png)
 
 ## References
 
